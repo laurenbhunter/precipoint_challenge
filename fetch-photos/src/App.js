@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+
 import "./App.css";
 import PhotoContainer from "./PhotoContainer";
 
@@ -55,7 +57,7 @@ render () {
         <div id="img-wrapper">
         <PhotoContainer photos={this.state.photos} />
         </div>
-      </div>
+                </div>
 
 </section>
     );

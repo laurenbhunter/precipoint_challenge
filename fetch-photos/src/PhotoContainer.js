@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from 'react';
+import React from "react";
 import Photo from "./Photo";
 
 const PhotoContainer = props => {
@@ -13,7 +13,7 @@ const PhotoContainer = props => {
   return (
 
     <section>{displayPhotos()}</section>
-  )
-}
+  );
+};
 
 export default PhotoContainer;
